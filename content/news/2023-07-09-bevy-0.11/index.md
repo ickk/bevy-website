@@ -343,7 +343,7 @@ Bevy is built on top of the [wgpu] library, which is a modern low-level GPU API 
 
 Click one of the images below to check out our live WebGPU examples (if your [browser supports it][webgpu-support]):
 
-[![webgpu examples](webgpu_examples.png)](/examples-webgpu)
+[![webgpu examples](webgpu_examples.png)](examples-webgpu)
 
 [wgpu]: https://github.com/gfx-rs/wgpu
 [webgpu-support]: https://caniuse.com/webgpu
@@ -801,7 +801,7 @@ and the vibration strength. `GamepadRumbleRequest::Stop` immediately stops all m
 In **Bevy 0.10** we [made tonemapping configurable with a ton of new tonemapping options](/news/bevy-0-10/#more-tonemapping-choices). In **Bevy 0.11** we've switched the default tonemapping method from "Reinhard luminance" tonemapping to "TonyMcMapface":
 
 <b style="display:block; margin-bottom: -18px">Drag this image to compare</b>
-<div class="image-compare" style="aspect-ratio: 595 / 311" data-title-a="Reinhard-luminance" data-title-b="TonyMcMapface">
+<div class="image-compare" style="aspect-ratio: 16 / 9" data-title-a="Reinhard-luminance" data-title-b="TonyMcMapface">
   <img class="image-a" alt="Reinhard-luminance" src="tm_reinhard_luminance.png">
   <img class="image-b" alt="TonyMcMapface" src="tm_tonymcmapface.png">
 </div>
@@ -1122,7 +1122,7 @@ Bevy now waits 50 milliseconds after an "asset changed on filesystem" event befo
 
 ## Custom glTF Vertex Attributes
 
-<div class="release-feature-authors">authors: @komadori</div>
+<div class="release-feature-authors">authors: @JMS55</div>
 
 It is now possible to load meshes with custom vertex attributes from glTF files. Custom attributes can be mapped to Bevy's [`MeshVertexAttribute`] format used by the [`Mesh`] type in the [`GltfPlugin`] settings. These attrtibutes can then be used in Bevy shaders. For an example, check out our [new example](https://github.com/bevyengine/bevy/blob/v0.11.0/examples/2d/custom_gltf_vertex_attribute.rs).
 
